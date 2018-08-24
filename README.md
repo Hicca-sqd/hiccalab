@@ -1,2 +1,2 @@
-# mainrep_project
+# hiccalab
 For main
