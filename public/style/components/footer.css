@@ -1,0 +1,60 @@
+.hiccas-footer{
+	width: 100%;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	height: 100px;
+	background-color: #e79200;
+}
+
+.footer-inner{
+	position: relative;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-logo{
+	position: relative;
+	display: block;
+	width: 60px;
+	height:60px;
+}
+
+.footer-logo__text{
+	position: relative;
+	/*bottom: 25px;
+	left: 80px;*/
+	font-size: 20px;
+	margin-left: 10px;
+	white-space: nowrap;
+	font-family: Gotham Pro-Bold;
+	color: #d1cabd;
+}
+
+.footer--adress{
+	position: relative;
+/*	bottom: 25px;
+	left: 550px;*/
+	font-size: 20px;
+	font-family: Gotham Pro-Bold;
+	color: #d1cabd;
+}
+
+.footer-img{
+	position: relative;
+	margin-right: 30px;
+/*	bottom:25px;
+		left: 800px;*/
+}
+
+.footer-logo{
+	align-items: center;
+	display: flex;
+}
+
+.footer-imgs{
+	align-items: center;
+	display: flex;
+}
