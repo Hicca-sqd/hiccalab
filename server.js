@@ -6,7 +6,6 @@ const mongoose = require( 'mongoose' )
 const path = require( 'path' ) //библиотека для того чтобы выявлять абсоляютный пусть
 const session = require( 'express-session' )
 const MongoStore = require( 'connect-mongo' )( session )
-const redis = require( 'redis' )
 mongoose.connect( 'mongodb://localhost/hiccalib' ,{ useNewUrlParser: true }) //подключенение к монгоду и задаем название 
 const app = express() //создаем приложение
 app.use( express.static( path.join( __dirname, 'public' ) ) ) //ап из это использование статитчная папка будет папка publicм все что с фронтом
